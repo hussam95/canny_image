@@ -55,7 +55,7 @@ def cannyEdge(I,filename):
     #print("raza <3")
     #print(type(E))
     im = Image.fromarray(E)
-    im.save(args.dest+"/"+"{}".format(filename)+".jpg")
+    im.save(args.dest+"/"+"{}".format(filename))
   # plt.imshow(E,cmap='gray')
   return E
 
